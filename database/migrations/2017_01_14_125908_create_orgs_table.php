@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 class CreateOrgsTable extends Migration
 {
@@ -17,7 +17,7 @@ class CreateOrgsTable extends Migration
             $table->integer('id')->unique();
             $table->string('name');
             $table->string('url');
-            $table->string('description')->nullable();
+            $table->longText('description')->nullable();
             $table->string('avatar');
             $table->integer('userid');
             $table->integer('invitecount')->default('0');

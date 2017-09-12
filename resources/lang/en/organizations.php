@@ -15,9 +15,8 @@ return [
     'heading'          => 'Organizations',
     'name'             => 'Name',
     'link'             => 'Link',
-    'password'         => 'Password',
-    'submit'           => 'Submit',
-    'sync'             => 'Sync',
-    'passwdtext'       => 'Protect the invites!',
-
+    'options'          => 'Settings',
+    'passwdtext'       => 'Protect invites!',
+    'haspasswdtext'    => 'Change password',
+    'changepasswd'     => 'Change password',
 ];
